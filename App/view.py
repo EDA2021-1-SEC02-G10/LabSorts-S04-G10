@@ -116,8 +116,7 @@ while True:
     elif int(inputs[0]) == 5:
         size = input("Indique tamaño de la muestra: ")
         result = controller.sortBooks(catalog, int(size))
-        print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ",
-                                           str(result[0]))
+        print("Para la muestra de", size, " elementos, el tiempo (mseg) es: ", str(result[0]))
         printResults(result[1])
     else:
         sys.exit(0)
